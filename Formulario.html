@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <!-- Content here -->
+
+        <div class="col-md-8">
+            <label for="exampleFormControlInput1" class="form-label"> Nome</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+        </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label for="data-pagamento">CPF</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Apenas Números">
+
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label for="data-pagamento">Data de Nascimento</label>
+                    <div class="input-group date">
+                        <input type="text" id="data-pagamento" name="data_pagamento" class="form-control" />
+                        <div class="input-group-addon">
+                            <span class="glyphicon glyphicon-th"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                Sexo
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Feminino
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        Masculino
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+
+                <label for="validationCustomUsername" class="form-label">Telefone</label>
+
+                <div class="input-group has-validation">
+
+                    <span class="input-group-text" id="inputGroupPrepend">📞</span>
+
+                    <input type="text" class="form-control" id="validationCustomUsername"
+                        aria-describedby="inputGroupPrepend" required>
+
+                    <div class="invalid-feedback">
+
+                        Please choose a username.
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-4">
+
+                <label for="validationCustomUsername" class="form-label">Telefone</label>
+
+                <div class="input-group has-validation">
+
+                    <span class="input-group-text" id="inputGroupPrepend">📞</span>
+
+                    <input type="text" class="form-control" id="validationCustomUsername"
+                        aria-describedby="inputGroupPrepend" required>
+
+                    <div class="invalid-feedback">
+
+                        Please choose a username.
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-md-8">
+
+            <label for="validationCustomUsername" class="form-label">Email</label>
+
+            <div class="input-group has-validation">
+
+                <span class="input-group-text" id="inputGroupPrepend">📧</span>
+
+                <input type="text" class="form-control" id="validationCustomUsername"
+                    aria-describedby="inputGroupPrepend" required>
+
+                <div class="invalid-feedback">
+
+                    Please choose a username.
+
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="form-group">
+                        <label for="data-pagamento">CEP</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Apenas Números">
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <br>
+                    <button class="btn btn-primary" type="submit">Pesquisar</button>
+
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-4">
+
+                <label for="validationCustomUsername" class="form-label">Endereço*</label>
+
+                <div class="input-group has-validation">
+
+                    <span class="input-group-text" id="inputGroupPrepend">Rua</span>
+
+                    <input type="text" class="form-control" id="validationCustomUsername"
+                        aria-describedby="inputGroupPrepend" required>
+
+                    <div class="invalid-feedback">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-4">
+
+                <label for="validationCustomUsername" class="form-label"></label>
+
+                <div class="input-group has-validation">
+
+                    <span class="input-group-text" id="inputGroupPrepend">N°*</span>
+
+                    <input type="text" class="form-control" id="validationCustomUsername"
+                        aria-describedby="inputGroupPrepend" required>
+
+                    <div class="invalid-feedback">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <label for="validationCustomUsername" class="form-label"></label>
+                <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">Bairro</span>
+                    <input type="text" class="form-control" id="validationCustomUsername"
+                        aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <label for="validationCustomUsername" class="form-label"></label>
+                <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">Cidade</span>
+                    <input type="text" class="form-control" id="validationCustomUsername"
+                        aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+
+                <label for="validationCustomUsername" class="form-label"></label>
+                <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">Estado</span>
+                    <input type="text" class="form-control" id="validationCustomUsername"
+                        aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+
+        <label for="validationCustomUsername" class="form-label">Estado Civil*</label>
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Casado</option>
+            <option value="1">Divorciado</option>
+            <option value="2">Solteiro</option>
+            <option value="3">Separado</option>
+            <option value="3">Viúvo</option>
+        </select>
+
+    </div>
+
+    <label class="col-md1 control-label" for="Filhos">Filhos<h11>*</h11></label>
+    <div class="col-md-3">
+        <div class="input-group">
+            <span class=" input-group-addon">
+                <label class="radio-inline" for="radios-0">
+                    <input type="radio" name="filhores" id="filhos" value="nao" onclick="desabilita('filhos_qtd')"
+                        required>Não
+                </label>
+                <label class="radio-inline" for="radios-1">
+                    <input type="radio" name="filhores" id="filhos" value="sim" onclick="habilita('filhos_qtd')">Sim
+                </label>
+            </span>
+            <input id="filhos_qtd" name="filhos_qtd" class="form-control" type="text" placeholder="Quantos?"
+                pattern="[0-9]+$">
+        </div>
+
+    </div>
+
+
+    </div>
+
+    </div>
+
+    <div class="col-md-3">
+
+        <label for="validationCustomUsername" class="form-label">Escolaridade*</label>
+
+        <select class="form-select" aria-label="Default select example">
+
+            <option selected>Ensino Médio </option>
+
+            <option value="1">Universitario</option>
+
+            <option value="2">Fundamental</option>
+            <option value="3">Pos Graduação</option>
+        </select>
+        <div class="col-md-8">
+            <label for="exampleFormControlInput1" class="form-label">Profissao</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+        </div>
+
+        
+        <label class="col-md-4 control-label" for="encaminhamento">Encaminhamento<h11>*</h11></label>
+        <div class="col-md-3">
+            <div class="input-group">
+                <span class=" input-group-addon">
+                    <label class="radio-inline" for="radios-0">
+                        <input type="radio" name="encaminhamento" id="encaminhamento" value="nao" onclick="desabilita('encaminhamento_qtd')"
+                            required>Não
+                    </label>
+                    <label class="radio-inline" for="radios-1">
+                        <input type="radio" name="encaminhamento" id="encaminhamento" value="sim" onclick="habilita('encaminhamento_qtd')">Sim
+                    </label>
+                </span>
+                <input id="encaminhamento_qtd" name="encaminhamento_qtd" class="form-control" type="text" placeholder="Instituição"
+                    pattern="[0-9]+$">
+            </div>
+        </div>
+
+        <label class="col-md-4 control-label" for="Filhos">Filhos<h11>*</h11></label>
+        <div class="col-md-3">
+            <div class="input-group">
+                <span class=" input-group-addon">
+                    <label class="radio-inline" for="radios-0">
+                        <input type="radio" name="filhores" id="filhos" value="nao" onclick="desabilita('filhos_qtd')"
+                            required>Não
+                    </label>
+                    <label class="radio-inline" for="radios-1">
+                        <input type="radio" name="filhores" id="filhos" value="sim" onclick="habilita('filhos_qtd')">Sim
+                    </label>
+                </span>
+                <input id="filhos_qtd" name="filhos_qtd" class="form-control" type="text" placeholder="Quantos?"
+                    pattern="[0-9]+$">
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
